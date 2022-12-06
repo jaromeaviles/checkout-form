@@ -1,25 +1,41 @@
 <template>
-  <div>
+  <div class="container">
+    <div class="row">
+      <card-info></card-info>
+    </div>
   </div>
 </template>
 
 <script>
+import CardInfo from "./components/CardInfo.vue";
 
 export default {
   name: 'App',
   components: {
-    
+    CardInfo
   }
 }
 </script>
 
-<style>
+<style lang="scss">
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+
+  h1, h2, h3, h4, h5, h6 {
+     font-family: 'Playfair Display', serif;
+     font-weight: 700;
+  }
+}
+
+.container {
+  background-color: #eaf0f5;
+  padding: 30px 20px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  border-radius: 7px;
 }
 </style>
