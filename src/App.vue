@@ -18,6 +18,16 @@ export default {
 </script>
 
 <style lang="scss">
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 #app {
   font-family: 'Source Sans Pro', sans-serif;
   -webkit-font-smoothing: antialiased;
