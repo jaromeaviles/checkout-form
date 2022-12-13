@@ -47,5 +47,9 @@ body {
   padding: 30px 20px;
   box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
   border-radius: 7px;
+
+  @media only screen and (min-width: 1200px) {
+    max-width: 1300px;
+  }
 }
 </style>
